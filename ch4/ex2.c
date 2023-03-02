@@ -1,4 +1,4 @@
-// ex1
+// ex2
 
 #include <stdio.h>
 
@@ -9,9 +9,10 @@ int main()
     scanf("%d", &num);
     while (num != 0)
     {
-        printf("%d", num & 10);
+        printf("%d", num % 10);
         num = num / 10;
     }
+    putchar('\n');
 
     return 0;
 }
